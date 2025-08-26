@@ -1,0 +1,108 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Body Styling */
+body {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Input Section */
+.input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#input_ele {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #2575fc;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+  transition: 0.3s;
+}
+
+#input_ele:focus {
+  border-color: #6a11cb;
+}
+
+/* Add Button */
+#store_btn {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  background-color: #2575fc;
+  color: white;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#store_btn:hover {
+  background-color: #6a11cb;
+}
+
+/* Textarea */
+#text_area_ele {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 2px solid #2575fc;
+  resize: none;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+  transition: 0.3s;
+}
+
+#text_area_ele:focus {
+  border-color: #6a11cb;
+}
+
+/* Clear Button */
+.btn-box {
+  text-align: center;
+}
+
+#clear_btn {
+  padding: 10px 20px;
+  background-color: #ff4757;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#clear_btn:hover {
+  background-color: #e84118;
+}
